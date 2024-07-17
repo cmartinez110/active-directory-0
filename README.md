@@ -3,7 +3,7 @@
 <h1>Active Directory - Domain Controller and Client VMs + PowerShell Script to Add Users</h1>
 
 <h2>Description</h2>
-In this lab I used VirtualBox to build two VMs. One serves as a Domain Controller on windows server 2016, in order to run Active Directory. The second VM is a client which is able to connect to the internet through NAT. I used a script in PowerShell to add 1,000 users to the Organization.
+In this lab I used VirtualBox to build two VMs. One serves as a Domain Controller on windows server 2016, in order to run Active Directory. The second VM is a client which is able to connect to the internet through NAT. I used a script in PowerShell to add 1,000 users to the Organization. I used another project template and working to add accurate descriptions to each image below.
 <br />
 
 
