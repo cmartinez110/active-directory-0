@@ -16,7 +16,7 @@ In this lab I used VirtualBox to build two VMs. One serves as a Domain Controlle
 <h2>Project walk-through:</h2>
 
 <p align="center">
-This is a copy of the scope and goals for the fictional comany Botium Toys, that I was provided: <br/>
+: <br/>
 <img src="https://i.imgur.com/gXCPnsq.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
