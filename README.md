@@ -89,7 +89,7 @@ dhcp scope 2:  <br/>
 <img src="https://i.imgur.com/npibwdd.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-I did not write this script, but I understand what it does.First we have variabels password for users and user first last.Thenw e have the $password which takes the plain text password and makes it into an object which powershell can use. "New-ADOrganizationalUnit" creates the OU and also will configure it to have the accidental deletion checkbox unchecked as for this machine I don't want it to be too tedious to remove users. Next we have the "foreach" which is a loop that applies the variables for each individual user in the list of 1,000 users in my text file :  <br/>
+I did not write this script, but I understand what it does. First we have variables "password for users" and "user first last". Then we have the next line which starts with "$password". This takes the plain text password and makes it into an object which powershell can use. "New-ADOrganizationalUnit" creates the OU and also will configure it to have the "accidental deletion checkbox" unchecked, as for this machine I don't want it to be too tedious to remove users. Next we have the "foreach" which is a loop that applies the variables for each individual user in the list of 1,000 users in my text file :  <br/>
 <img src="https://i.imgur.com/rByktDM.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
