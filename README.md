@@ -9,47 +9,47 @@ In this lab I used VirtualBox to build two VMs. One serves as a Domain Controlle
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>VirtualBox, PowerShell. Server 2016, Windows 10 Pro</b> 
+- <b>VirtualBox, PowerShell. Server 2019, Windows 10 Pro</b> 
 
 
 
 <h2>Project walk-through:</h2>
 
 <p align="center">
-: <br/>
+After creating the Domain Controller VM I arrived at the Windows Server 2019 home screen with server dashboard. <br/>
 <img src="https://i.imgur.com/gXCPnsq.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Scope and goals continued:  <br/>
+I set the IP address as a loop back IP address:  <br/>
 <img src="https://i.imgur.com/vBRW1vZ.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls assessment: <br/>
+configured settigns to add Active Directory: <br/>
 <img src="https://i.imgur.com/ZCroLst.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/xpPvOl0.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
 
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/xpPvOl0.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/m4GGC2g.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/aGAc9Uw.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/tfVvQux.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/wW8tvb6.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
@@ -61,23 +61,23 @@ Signing in as a user not admin acc:  <br/>
 <img src="https://i.imgur.com/C7Q5Fg5.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/lykoglz.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/xcIn6RF.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/xcIn6RF.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/VP5E5xP.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-Controls asessment continued:  <br/>
+[]:  <br/>
 <img src="https://i.imgur.com/4he5bFV.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
@@ -89,7 +89,7 @@ dhcp scope 2:  <br/>
 <img src="https://i.imgur.com/npibwdd.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
-CLI Script 1:  <br/>
+I did not write this script, but I understand what it does.First we have variabels password for users and user first last.Thenw e have the $password which takes the plain text password and makes it into an object which powershell can use. "New-ADOrganizationalUnit" creates the OU and also will configure it to have the accidental deletion checkbox unchecked as for this machine I don't want it to be too tedious to remove users. Next we have the "foreach" which is a loop that applies the variables for each individual user in the list of 1,000 users in my text file :  <br/>
 <img src="https://i.imgur.com/rByktDM.png" height="80%" width="80%" alt="security audit"/>
 <br />
 <br />
